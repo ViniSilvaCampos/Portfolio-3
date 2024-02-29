@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap')
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;}
+
+.cabecalho {
+padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+
+.cabecalho__menu__link{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: darkviolet;
+    text-decoration: none;
+
+}
+
+.apresentacao {
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+}
+
+.apresentacao__conteudo__titulo{
+font-size: 2.25rem;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.titulo-destaque {
+    color: blueviolet;
+}
+
+.paragrafo-destaque {
+    color: blueviolet;
+}
+  
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 1.8rem;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75rem;
+    
+}
+
+.apresentacao__links__navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 280px;
+    border-radius: 8px;
+    border: 5px solid whitesmoke;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: aliceblue;
+    border: 5px solid whitesmoke;
+}
+
+.apresentacao__links__navegacao:hover {
+    background-color: #272727;
+    padding: 3%;
+}
+
+.apresentacao__imagem {
+    width: 40%;
+}
+
+.rodape {
+    padding: 15px;
+    color: black;
+    background-color: blueviolet;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+@media (max-width:1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 3%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+    
+}
+
